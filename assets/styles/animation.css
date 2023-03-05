@@ -1,0 +1,31 @@
+
+@keyframes blur-text {
+    0% {
+      filter: blur(0);
+    }
+    50% {
+        color: red;
+    }
+    51% {
+        color: yellow;
+
+    }
+    
+    100% {
+        filter: blur(2px);
+        opacity: 0;
+    }
+  }
+
+
+
+  @keyframes rotate {
+    0% { 
+        filter: blur(2);
+         transform: rotate(0deg);
+         }
+    100% { 
+        filter: blur(4px);
+        transform: rotate(360deg); }
+}
+
